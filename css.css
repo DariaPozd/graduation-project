@@ -1,0 +1,188 @@
+.nav-item {
+	margin-right: 15px;
+}
+
+.logo-img img {
+	height: 120px;
+}
+
+.phoneNum {
+	padding-top: 15px;
+}
+
+.phoneNum span  {
+	float: right;
+}
+
+#callBack {
+	float: right;
+}
+
+#mPhone {
+	color: #285dac;
+	font-size: 25px;
+}
+
+.fa-mobile-alt {
+	color: #ed4501;
+}
+
+/*search input*/
+* {box-sizing: border-box;}
+.search {
+  position: relative;
+  width: 400px;
+  margin: 50px auto;
+}
+.search-input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #285dac;
+  border-radius: 5px;
+  outline: none;
+  background: #FFF;
+  color: #9E9C9C;
+}
+.search-btn {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #285dac;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search-btn:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #FFF;
+}
+
+/*.navbar-nav li {
+	margin-right: 15px;
+}*/
+
+ul li ul {
+  visibility: hidden;
+}
+ 
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+.startContent {
+	background-image: url(../img/mountains.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+}
+
+.goodsCotegory {
+	margin: 0 100px;
+}
+
+.startLabel {
+	padding-top: 75px;
+	color: #FFF; 
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.kondicioner {
+	background-image: url(../img/kondicioner.jpg);
+}
+
+.obogrevatel {
+	background-image: url(../img/9025068.jpg);
+	margin-left: 15px; 
+}
+.tovarBlock {
+	background-size: cover;
+	height: 270px;
+	width: 49%;
+	padding: 45px;
+	display: inline-block;
+	border-radius: 5px;
+}	
+
+.tovarBlock h3 {
+	text-transform: uppercase;
+	color: #F0F0F0;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.tovarBlock a {
+	color: #b2b2b2;
+	font-size: 17px;
+}
+
+.tovarBlock a:hover {
+	color: #f4cd3e;
+	transition: all 0.4s;
+}
+
+.allGoods a {
+	color: #f4cd3e;
+	margin: 20px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+	float: right;
+}
+
+.aboutCo div {
+	font-size: 17px;
+	margin: 7px 0;
+}
+
+.aboutTitle {
+	color: #285dac;
+}	
+
+.aboutInfo img {
+	height: 50px;
+	display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.footerInfo {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #e5e5e5;
+}
+
+.footerInfo h3 {
+	color: #f4cd3e;
+}
+
+.footerInfo a {
+	color: #e5e5e5;
+	font-size: 17px;
+}
+
+.delivery, .setting, .contacts, .faq, .service {
+	padding: 50px 0;
+	font-size: 17px;
+}
+
+.delivery img {
+	margin-top: -100px;
+	margin-left: -60px;
+	height: 47%;
+	opacity: 50%;
+	position: fixed;
+	z-index: -1;
+}
+
+.contacts h3 {
+	color: #081222;
+	margin-bottom: 25px;
+}
+
